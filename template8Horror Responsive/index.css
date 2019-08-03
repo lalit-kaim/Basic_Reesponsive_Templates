@@ -1,0 +1,138 @@
+body{
+    user-select: none!important;
+}
+.navigation{
+    top:0px;
+    color: white;
+    left: 0px;
+}
+.navigation>div>div>button{
+    color: white!important;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5)
+}
+.maintext{
+    margin-top:18%; 
+}
+.myicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.neverback{
+    background-color: rgb(202, 202, 202);
+}
+figure, figcaption{
+    background-color: rgb(128, 128, 128)!important;
+}
+textarea{
+    height: 200px!important;
+}
+.dejavu{
+    border: 1px solid rgb(97, 97, 97);    
+}
+.lklk>.hinge{
+    animation-delay: 1s;
+}
+.mydelay{
+    animation-delay: 0.5s;
+}
+.navbtn:hover{
+    animation:flipOutX 1s linear;
+    animation-iteration-count: 1;
+}
+h1{
+    font-family: 'Butcherman', cursive!important;  
+}
+h5{
+    font-family: 'Mountains of Christmas', cursive!important;
+}
+.formdiv{
+    background-color: #adadad;
+}
+input::-webkit-inner-spin-button{
+    display: none;
+}
+.footericon{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    overflow: hidden;
+}
+.footericon:hover{
+    width: 150px;
+    height: 150px;
+    transition: 1s;
+    overflow: hidden;
+}
+.collage{
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* border: 4px solid salmon; */
+}
+.collageimg:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.collageimg{
+    transform: scale(1,1);
+    transition: 1s;
+}
+.centerimg:hover{
+    transform: scale(8,8);
+    transition: .4s;
+}
+.centerimg{
+    top:24.5%;
+    left: 30%;
+    width: 40%;
+    height: auto;
+    transition: 1s;
+    background-position: center;
+}
+.owner:hover{
+    font-size: 25px!important;
+    transition: 1s;
+}
+.owner{
+    font-size: 12px;
+    transition: 1s;
+}
+@keyframes flipOutX {
+    from {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px);
+    }
+  
+    30% {
+      -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+      transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+      opacity: 1;
+    }
+  
+    to {
+      -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+      transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+      opacity: 0;
+    }
+  }
+  
+@media only screen and (max-width:576px){
+    body{
+        font-size: 8px!important;
+    }
+    .maintext{
+        margin-top: 10%;
+    }
+}
