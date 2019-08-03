@@ -1,0 +1,115 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;  
+    user-select: none;  
+}
+.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+.overlay{
+    bottom: 0px;
+    color: white;
+}
+hr{
+    background-color: white;
+}
+.overlay1{
+    background-color: rgba(88, 88, 88, 0.7);
+    width: 70%;
+}
+.button>button{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(75, 164, 224);
+    border-radius: 20px;
+    color: white;
+}
+.button>button:hover{
+    color: rgb(75, 164, 224);
+    background-color: white;
+}
+.buttons>button{
+    color: white;
+}
+.buttons>button:hover{
+    color: white;
+}
+.firstrow{
+    width: 70%;
+}
+.moredetail{
+    background-color: rgb(75, 164, 224)!important;
+    color: white!important;
+    border-radius: 20px!important;
+}
+.moredetail:hover{
+    color: rgb(75, 164, 224)!important;
+    background-color: white!important;
+    border: 1px solid rgb(75, 164, 224)!important;
+}
+.mycardbody1{
+    margin-right: 20px;
+}
+.mycardbody2{
+    margin-left: 20px;
+}
+.middle{
+    background-color: rgb(236, 232, 226);
+}
+.footerlogo>a>i{
+    font-size: 40px;
+    color: white;
+}
+.footerlogo>a{
+    margin: 10px;
+}
+.footest{
+    justify-content: space-between;
+    color: white;
+}
+.footer,.foot{
+    background-color: rgb(75, 164, 224);
+}
+.footer{
+    width: 60%!important;
+}
+.footerlink{
+    color: white;
+}
+.footerlink:hover{
+    color: white;
+}
+@media only screen and (max-width:768px){
+    .overlay1{
+        width: 100%;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .mycardbody1{
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .mycardbody2{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .firstrow{
+        width: 100%;
+    }
+    .footer{
+        width: 80%!important;
+    }
+}
+@media only screen and (max-width:600px){
+    .footest>p{
+        width: 100%!important;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:963px){
+    .footest>p{
+        width: 100%!important;
+        text-align: center;
+    }
+}
