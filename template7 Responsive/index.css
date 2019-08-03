@@ -1,0 +1,127 @@
+h1{
+    font-family: 'Lobster'!important;
+}
+.mainimg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.mainimg0{
+    background-image: url('a.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: max-content!important;
+    min-height: 80vh!important;
+
+}
+.mainoverlay{
+    top:0px;
+    padding: 30px!important;
+}
+.start>h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.navigation{
+    justify-content: space-between;
+}
+.mainbutton{
+    background-color: rgb(87, 196, 129)!important;
+    color: white!important;
+}
+.mainbutton:hover{
+    background-color: white!important;
+    /* background-color: transparent!important; */
+    color: rgb(87, 196, 129)!important;
+    border: 1px solid rgb(87, 196, 129);
+}
+.logos{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    top:0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color:rgb(87, 196, 129);
+    color: white;
+}
+.middletext{
+    top:0px;
+}
+.lkp{
+    background-image: url("b.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: max-content!important;
+    min-height: 80vh!important;
+}
+.cname{
+    margin:0px;
+    font-weight: bolder;
+}
+.cposition{
+    margin: 0px;
+    color: rgb(163, 163, 163);
+}
+.bottomimg{
+    background-image: url('b1.jpg');
+    background-size: cover;
+    height: max-content!important;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 70vh!important;
+    background-position: center;
+    /* filter: brightness(0.5); */
+}
+.aboutbutton{
+    border: 1px solid black!important;
+}
+.casebutton{
+    border: 1px solid white!important;
+    color: white!important;
+}
+.casebutton:hover{
+    border: 1px solid white;
+    color: white!important;
+}
+.footer{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(48, 48, 48);
+}
+hr{
+    color: white!important;
+    background-color: white!important;
+}
+@media only screen and (max-width:767px){
+    .navigation{
+        justify-content: center!important;
+    }
+    .mainoverlay{
+        font-size: 16px!important;
+    }
+    .bottomcard{
+        flex-direction: column!important
+    }
+}
+@media only screen and (max-width:575px){
+    .mainoverlay{
+        font-size: 14px!important;
+    }
+    .mainoverlay{
+        padding: 20px!important;
+    }
+    .lkp>div>div{
+        width: 100%!important;
+    }
+}
