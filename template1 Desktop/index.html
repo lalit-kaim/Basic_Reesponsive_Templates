@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>template3</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster&display=swap" rel="stylesheet">
+    <style>
+        body,html{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            /* border:1px solid black; */
+            background-color: black;
+            display: flex;
+            justify-content: center;
+        }
+        .main{
+            width: 65%;
+            height: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            background-color: white;
+
+            justify-content: center;
+        }
+        .same{
+            width: 100%;
+            height: 100%;
+            /* border: 1px solid black; */
+        }
+        .middle{
+            margin-left: 10px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .middle-main{
+            width: 90%;
+            height: 90%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(200, 225, 255)
+        }
+        .middle-center{
+            width: 90%;
+            height: 50%;
+            border: 2px solid white;
+            border-radius: 2px;
+            padding-top: 30px;
+            text-align: center;
+        }
+        button{
+            border: 2px solid black;
+            background-color: transparent;
+            padding: 5px 15px 5px;
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            align-items: center;
+        }
+        .right-image{
+            width: 100%;
+            height:70%;
+            /* border: 1px solid black; */
+            position: relative;
+            text-align: center;
+        }
+        .right-lower{
+            width: 100%;
+            height: 30%;
+            /* border: 1px solid black; */
+            text-align:center;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .azure{
+            width: 100%;
+            position: absolute;
+            bottom:20px;
+        }
+        .right-border{
+            width:80%;
+            height:80%;
+            border: 2px solid rgb(200, 225, 255);
+            border-radius: 2px;
+            position: absolute;
+        }
+        .left-top{
+            width: 100%;
+            height: 50%;
+            /* border: 1px solid blue; */
+            text-align: center;
+            padding: 10px;
+        }
+        .left-top-img{
+            width: 60%;
+            height: 70%;
+            object-fit: cover;
+        }
+        .left-bottom{
+            width: 100%;
+            height: 50%;
+            /* border: 1px solid green; */
+            display: flex;
+            justify-content: center;
+        }
+        .left-bottom-inner{
+            width: 100%;
+            height: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center
+        }
+        .left-bottom-img{
+            width: 90%;
+            height: 150px;
+            object-fit: cover;
+        }
+        label{
+            line-height: 20px;
+            font-size: 10px;
+        }
+        b{
+            line-height: 25px;
+
+        }
+        h1{
+            font-family: 'Lobster', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="left same">
+                <div class="left-top">
+                    <img class="left-top-img" src="girl1.jpg" alt=""><br>
+                    <b>PRODUCT NAME</b><br>
+                    <label>DESCRIPTION OF <br> PRODUCT</label><br>
+                    <label>Soo.oo</label>
+                </div>
+                <div class="left-bottom">
+                    <div class="left-bottom-inner">
+                        <img class="left-bottom-img" src="girl2.jpg"><br>
+                        <b>PRODUCT NAME</b>
+                        <label>DESCRIPTION OF <br> PRODUCT</label>
+                        <label>Soo.oo</label>
+                    </div>
+                    <div class="left-bottom-inner">
+                        <img class="left-bottom-img" src="girl3.jpg"><br>
+                        <b>PRODUCT NAME</b>
+                        <label>DESCRIPTION OF <br> PRODUCT</label>
+                        <label>Soo.oo</label>
+                    </div>
+                </div>
+            </div>
+            <div class="middle same">
+                <div class="middle-main">
+                    <div class="middle-center">
+                        <button>CONTACT US</button>
+                        <p>(000)000-000</p>
+                        <p>email@email.com</p>
+                        <p>www.website.com</p>
+                        <p>123 5<sup>th</sup> Ave</p>
+                        <p>New York, NY ooooo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right same">
+                <div class="right-image">
+                    <img src="girl4.jpg" alt="">
+                    <div class="azure">
+                        <button>AZURE</button>
+                    </div>
+                </div>
+                <div class="right-lower">
+                    <h1>BOUTIQUE</h1>
+                    <hr>
+                    <p>FALL 2016 COLLECTION</p>
+                </div>
+                <div class="right-border"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
